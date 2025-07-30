@@ -1,46 +1,171 @@
-# Getting Started with Create React App
+# Urban Company Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive React.js web application that mimics the Urban Company experience with home services booking functionality.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### ✅ Core Features
+- **4 Home Services**: AC Repair, TV Repair, Home Cleaning, Washing Machine Repair
+- **Location Picker**: HTML5 Geolocation with manual address input
+- **Cart Functionality**: Add, remove, and update quantities
+- **Stripe Payment Integration**: Simulated payment processing
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
 
-### `npm start`
+### ✅ Pages & Components
+1. **Home Page**
+   - Hero section with location picker
+   - Service cards with "Add to Cart" functionality
+   - Customer testimonials
+   - Promotional banners
+   - Statistics section
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. **Cart Page**
+   - Display cart items with images and details
+   - Quantity adjustment controls
+   - Remove items functionality
+   - Order summary with subtotal and service fee
+   - "Proceed to Checkout" button
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3. **Checkout Page**
+   - Customer information form (name, email, phone, address)
+   - Simulated Stripe payment form
+   - Order summary
+   - Payment confirmation screen
 
-### `npm test`
+4. **Navigation**
+   - Responsive navbar with logo and links
+   - Cart icon with item count
+   - Mobile hamburger menu
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ✅ Technical Features
+- **React 18** with TypeScript
+- **Tailwind CSS** for styling
+- **React Router DOM** for navigation
+- **React Context API** for cart state management
+- **Lucide React** for icons
+- **HTML5 Geolocation** for location services
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd urban-company-clone
+   ```
 
-### `npm run eject`
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Open your browser**
+   Navigate to `http://localhost:3000`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Project Structure
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+src/
+├── components/          # Reusable UI components
+│   ├── Navbar.tsx     # Navigation bar
+│   ├── Footer.tsx     # Footer component
+│   ├── ServiceCard.tsx # Service display card
+│   └── LocationPicker.tsx # Location selection
+├── pages/              # Page components
+│   ├── Home.tsx       # Homepage
+│   ├── Cart.tsx       # Shopping cart
+│   └── Checkout.tsx   # Checkout process
+├── context/            # React Context
+│   └── CartContext.tsx # Cart state management
+├── types/              # TypeScript interfaces
+│   └── index.ts       # Type definitions
+└── App.tsx            # Main app component
+```
 
-## Learn More
+## Features in Detail
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Location Picker
+- **Manual Input**: Users can type their address
+- **Current Location**: Uses HTML5 Geolocation API
+- **Location Storage**: Saves selected location in state
+- **Error Handling**: Graceful fallback for unsupported browsers
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Cart Management
+- **Add to Cart**: One-click service addition
+- **Quantity Control**: Increase/decrease item quantities
+- **Remove Items**: Delete items from cart
+- **Real-time Total**: Automatic price calculation
+- **Persistent State**: Cart maintained across page navigation
+
+### Payment Integration
+- **Stripe Simulation**: Mock payment processing
+- **Form Validation**: Required field validation
+- **Order Confirmation**: Success screen with order details
+- **Security Notice**: Payment security information
+
+### Responsive Design
+- **Mobile-First**: Optimized for mobile devices
+- **Desktop Layout**: Enhanced layout for larger screens
+- **Touch-Friendly**: Optimized for touch interactions
+- **Accessibility**: Proper ARIA labels and semantic HTML
+
+## Customization
+
+### Adding New Services
+1. Update `public/services.json` with new service data
+2. Add service images to the public folder
+3. Update service categories if needed
+
+### Styling Changes
+- Modify `src/index.css` for global styles
+- Update `tailwind.config.js` for theme customization
+- Edit component-specific styles in individual files
+
+### Payment Integration
+To integrate real Stripe payments:
+1. Install Stripe packages: `npm install @stripe/stripe-js @stripe/react-stripe-js`
+2. Add your Stripe publishable key
+3. Replace the simulated payment form with Stripe Elements
+4. Implement payment intent creation on your backend
+
+## Technologies Used
+
+- **React 18**: Modern React with hooks
+- **TypeScript**: Type-safe development
+- **Tailwind CSS**: Utility-first CSS framework
+- **React Router DOM**: Client-side routing
+- **Lucide React**: Beautiful icons
+- **HTML5 Geolocation**: Location services
+
+## Browser Support
+
+- Chrome (recommended)
+- Firefox
+- Safari
+- Edge
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Test thoroughly
+5. Submit a pull request
+
+## License
+
+This project is for educational purposes. Please respect the original Urban Company brand and services.
+
+## Support
+
+For questions or issues, please open an issue in the repository.

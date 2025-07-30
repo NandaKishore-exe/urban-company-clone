@@ -1,0 +1,66 @@
+{
+  "services": [
+    {
+      "id": "ac-repair",
+      "name": "AC Repair",
+      "description": "Professional AC repair and maintenance services. Our experts will diagnose and fix your AC issues quickly and efficiently.",
+      "price": 599,
+      "image": "https://images.unsplash.com/photo-1581578731548-cf97c24ac1f7?w=400&h=300&fit=crop",
+      "category": "appliance-repair"
+    },
+    {
+      "id": "tv-repair",
+      "name": "TV Repair",
+      "description": "Expert TV repair services for all brands. We handle LCD, LED, and Smart TV repairs with warranty.",
+      "price": 499,
+      "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=300&fit=crop",
+      "category": "appliance-repair"
+    },
+    {
+      "id": "home-cleaning",
+      "name": "Home Cleaning",
+      "description": "Comprehensive home cleaning services. From regular cleaning to deep cleaning, we make your home spotless.",
+      "price": 799,
+      "image": "https://images.unsplash.com/photo-1581578731548-7f23fd83b7f1?w=400&h=300&fit=crop",
+      "category": "cleaning"
+    },
+    {
+      "id": "washing-machine-repair",
+      "name": "Washing Machine Repair",
+      "description": "Professional washing machine repair services. We fix all types of washing machines with same-day service.",
+      "price": 699,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+      "category": "appliance-repair"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Sarah Johnson",
+      "rating": 5,
+      "comment": "Excellent AC repair service! The technician was professional and fixed the issue quickly.",
+      "service": "AC Repair"
+    },
+    {
+      "id": "2",
+      "name": "Mike Chen",
+      "rating": 5,
+      "comment": "Great home cleaning service. My house looks brand new!",
+      "service": "Home Cleaning"
+    },
+    {
+      "id": "3",
+      "name": "Lisa Rodriguez",
+      "rating": 4,
+      "comment": "Fast and reliable TV repair. Highly recommended!",
+      "service": "TV Repair"
+    },
+    {
+      "id": "4",
+      "name": "David Wilson",
+      "rating": 5,
+      "comment": "Professional washing machine repair. Fixed the issue in no time.",
+      "service": "Washing Machine Repair"
+    }
+  ]
+} 
