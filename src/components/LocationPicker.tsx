@@ -56,8 +56,8 @@ const LocationPicker: React.FC<LocationPickerProps> = ({ onLocationSelect, selec
   };
 
   return (
-    <div className="w-full max-w-md">
-      <form onSubmit={handleSearchSubmit} className="flex flex-col space-y-4">
+    <div className="w-full">
+      <form onSubmit={handleSearchSubmit} className="space-y-3">
         {/* Search Input */}
         <div className="relative">
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={20} />
@@ -65,29 +65,20 @@ const LocationPicker: React.FC<LocationPickerProps> = ({ onLocationSelect, selec
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Enter your address"
-            className="input-field pl-10"
+            placeholder="Enter your location"
+            className="w-full px-4 py-3 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
           />
         </div>
 
-        {/* Current Location Button */}
+        {/* Detect My Location Link */}
         <button
           type="button"
           onClick={getCurrentLocation}
           disabled={isLoading}
-          className="flex items-center justify-center space-x-2 btn-secondary disabled:opacity-50 disabled:cursor-not-allowed"
+          className="flex items-center space-x-2 text-blue-600 hover:text-blue-700 text-sm font-medium disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          <MapPin size={20} />
-          <span>{isLoading ? 'Getting location...' : '📍 Use my current location'}</span>
-        </button>
-
-        {/* Submit Button */}
-        <button
-          type="submit"
-          disabled={!searchQuery.trim()}
-          className="btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
-        >
-          Set Location
+          <MapPin size={16} />
+          <span>{isLoading ? 'Detecting location...' : 'Detect my location'}</span>
         </button>
       </form>
     </div>

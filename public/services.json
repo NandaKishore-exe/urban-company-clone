@@ -9,11 +9,11 @@
       "category": "appliance-repair"
     },
     {
-      "id": "tv-repair",
-      "name": "TV Repair",
-      "description": "Expert TV repair services for all brands. We handle LCD, LED, and Smart TV repairs with warranty.",
-      "price": 499,
-      "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=400&h=300&fit=crop",
+      "id": "geyser-repair",
+      "name": "Geyser Repair",
+      "description": "Professional geyser installation and repair services. Our experts handle all types of geysers with warranty.",
+      "price": 699,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
       "category": "appliance-repair"
     },
     {
@@ -52,8 +52,8 @@
       "id": "3",
       "name": "Lisa Rodriguez",
       "rating": 4,
-      "comment": "Fast and reliable TV repair. Highly recommended!",
-      "service": "TV Repair"
+      "comment": "Fast and reliable geyser repair. Highly recommended!",
+      "service": "Geyser Repair"
     },
     {
       "id": "4",

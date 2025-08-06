@@ -5,7 +5,7 @@ A modern, responsive React.js web application that mimics the Urban Company expe
 ## Features
 
 ### ✅ Core Features
-- **4 Home Services**: AC Repair, TV Repair, Home Cleaning, Washing Machine Repair
+- **4 Home Services**: AC Repair, Geyser Repair, Home Cleaning, Washing Machine Repair
 - **Location Picker**: HTML5 Geolocation with manual address input
 - **Cart Functionality**: Add, remove, and update quantities
 - **Stripe Payment Integration**: Simulated payment processing
