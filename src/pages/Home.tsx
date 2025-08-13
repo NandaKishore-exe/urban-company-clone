@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Star, ArrowRight, MapPin, Search, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Star, ArrowRight, MapPin, Search } from 'lucide-react';
 import ServiceCard from '../components/ServiceCard';
 import LocationPicker from '../components/LocationPicker';
 import { Service, Location, Testimonial } from '../types';
@@ -9,9 +9,8 @@ const Home: React.FC = () => {
   const [services, setServices] = useState<Service[]>([]);
   const [testimonials, setTestimonials] = useState<Testimonial[]>([]);
   const [selectedLocation, setSelectedLocation] = useState<Location | null>(null);
-  const [selectedService, setSelectedService] = useState<Service | null>(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const [selectedService, setSelectedService] = useState<Service | null>(null);
   const [showServiceModal, setShowServiceModal] = useState(false);
   const navigate = useNavigate();
 
@@ -58,14 +57,6 @@ const Home: React.FC = () => {
     }
   };
 
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % 3);
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + 3) % 3);
-  };
-
   if (isLoading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -77,28 +68,10 @@ const Home: React.FC = () => {
     );
   }
 
-  const bannerSlides = [
-    {
-      title: "Hiring service experts made easy",
-      subtitle: "Professional and reliable home services delivered right to your home",
-      highlight: "easy"
-    },
-    {
-      title: "Quality guaranteed, satisfaction assured",
-      subtitle: "Trust our verified professionals for all your home service needs",
-      highlight: "guaranteed"
-    },
-    {
-      title: "Same-day service available",
-      subtitle: "Quick response times and efficient solutions for urgent repairs",
-      highlight: "same-day"
-    }
-  ];
-
   return (
     <div className="min-h-screen">
-      {/* Hero Section with Carousel */}
-      <section id="booking-section" className="bg-gradient-to-br from-gray-50 to-gray-100 py-20 relative overflow-hidden">
+      {/* Hero Section */}
+      <section id="booking-section" className="bg-gradient-to-br from-gray-50 to-gray-100 py-16 relative overflow-hidden">
         {/* Background Elements */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-blue-200 rounded-full opacity-20 -translate-y-20 translate-x-20"></div>
         <div className="absolute top-20 right-40 w-4 h-4 bg-blue-400 rounded-full"></div>
@@ -107,54 +80,29 @@ const Home: React.FC = () => {
         <div className="absolute bottom-0 left-0 w-64 h-64 bg-blue-100 opacity-30 transform rotate-12"></div>
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="text-center mb-12">
-            <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              {bannerSlides[currentSlide].title.split(' ').map((word, index) => (
-                <span key={index}>
-                  {word === bannerSlides[currentSlide].highlight ? (
-                    <span className="text-blue-600 underline">{word}</span>
-                  ) : (
-                    word
-                  )}
-                  {' '}
-                </span>
-              ))}
+          {/* Main Title */}
+          <div className="text-center mb-8">
+            <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-4">
+              Hiring service experts made <span className="text-blue-600 underline">easy</span>
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              {bannerSlides[currentSlide].subtitle}
+              Professional and reliable home services delivered right to your home
             </p>
           </div>
 
-          {/* Carousel Controls */}
-          <div className="flex justify-center space-x-4 mb-8">
-            <button
-              onClick={prevSlide}
-              className="w-10 h-10 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-gray-50 transition-colors"
-            >
-              <ChevronLeft size={20} className="text-gray-600" />
-            </button>
-            <div className="flex space-x-2">
-              {[0, 1, 2].map((index) => (
-                <button
-                  key={index}
-                  onClick={() => setCurrentSlide(index)}
-                  className={`w-3 h-3 rounded-full transition-colors ${
-                    currentSlide === index ? 'bg-blue-600' : 'bg-gray-300'
-                  }`}
-                />
-              ))}
-            </div>
-            <button
-              onClick={nextSlide}
-              className="w-10 h-10 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-gray-50 transition-colors"
-            >
-              <ChevronRight size={20} className="text-gray-600" />
-            </button>
-          </div>
-
-          {/* Search Section */}
+          {/* Centered Booking Card */}
           <div className="max-w-4xl mx-auto">
             <div className="bg-white rounded-lg shadow-lg p-8">
+              {/* Card Header */}
+              <div className="text-center mb-6">
+                <h2 className="text-2xl font-bold text-gray-900 mb-2">
+                  Book reliable professionals for your home
+                </h2>
+                <p className="text-gray-600">
+                  Get quality service from verified experts
+                </p>
+              </div>
+
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {/* Location Picker */}
                 <div className="space-y-2">

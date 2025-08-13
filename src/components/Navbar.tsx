@@ -1,14 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { ShoppingCart, Menu, X, User, ChevronDown, LogIn, UserCheck, Calendar } from 'lucide-react';
-import { useCart } from '../context/CartContext';
+import { Menu, X, User, ChevronDown, LogIn, UserCheck, Calendar } from 'lucide-react';
 
 const Navbar: React.FC = () => {
-  const { cart } = useCart();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = React.useState(false);
   const [isUserDropdownOpen, setIsUserDropdownOpen] = React.useState(false);
-
-  const itemCount = cart.items.reduce((total, item) => total + item.quantity, 0);
 
   const handleUserDropdownToggle = () => {
     setIsUserDropdownOpen(!isUserDropdownOpen);
@@ -35,9 +31,9 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">U</span>
+              <span className="text-white font-bold text-lg">Q</span>
             </div>
-            <span className="text-xl font-bold text-gray-900">Urban Services</span>
+            <span className="text-xl font-bold text-gray-900">Quicknest</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -110,15 +106,7 @@ const Navbar: React.FC = () => {
               )}
             </div>
             
-            {/* Cart */}
-            <Link to="/cart" className="relative p-2 text-gray-700 hover:text-blue-600 transition-colors">
-              <ShoppingCart size={24} />
-              {itemCount > 0 && (
-                <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">
-                  {itemCount}
-                </span>
-              )}
-            </Link>
+
             
             {/* Mobile Menu Button */}
             <button

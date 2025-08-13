@@ -10,11 +10,12 @@ const About: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
-              About Urban Services
+              About Quicknest
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We are a leading home services platform dedicated to connecting customers with 
-              professional, reliable, and trusted service providers.
+              We're a home services platform that brings together skilled professionals and homeowners 
+              who need reliable help around the house. Think of us as your neighborhood handyman, 
+              cleaner, and repair expert - all in one convenient app.
             </p>
           </div>
         </div>
@@ -31,9 +32,9 @@ const About: React.FC = () => {
               </div>
               <h2 className="text-3xl font-bold text-gray-900">Our Mission</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                To revolutionize the home services industry by providing a seamless platform 
-                that connects customers with verified, professional service providers. We strive 
-                to make quality home services accessible, reliable, and convenient for everyone.
+                We want to make finding home services as easy as ordering takeout. No more 
+                endless phone calls or wondering if someone will actually show up. We connect 
+                you with vetted professionals who care about doing the job right, every time.
               </p>
             </div>
 
@@ -44,9 +45,9 @@ const About: React.FC = () => {
               </div>
               <h2 className="text-3xl font-bold text-gray-900">Our Vision</h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                To become the most trusted and preferred platform for home services, 
-                setting industry standards for quality, reliability, and customer satisfaction. 
-                We envision a world where finding and booking home services is as simple as ordering food online.
+                Picture a world where getting your house cleaned, your leaky faucet fixed, 
+                or your garden maintained doesn't require a week of planning. We're building 
+                that reality - where quality home care is just a few taps away.
               </p>
             </div>
           </div>
@@ -59,7 +60,8 @@ const About: React.FC = () => {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Story</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              Founded with a simple yet powerful vision to transform how people access home services
+              It all started when our founder was stuck at home with a broken dishwasher and 
+              couldn't find anyone reliable to fix it. That frustrating experience sparked an idea.
             </p>
           </div>
 
@@ -68,9 +70,10 @@ const About: React.FC = () => {
               <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-blue-600">2019</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Founded</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">The Beginning</h3>
               <p className="text-gray-600">
-                Started with a small team and big dreams to revolutionize home services
+                Started in a small apartment with a laptop and a dream to fix the broken 
+                home services industry
               </p>
             </div>
 
@@ -78,9 +81,9 @@ const About: React.FC = () => {
               <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-green-600">2022</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Expansion</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Growing Up</h3>
               <p className="text-gray-600">
-                Expanded to multiple cities and launched new service categories
+                Word spread, more cities joined, and we realized we were onto something special
               </p>
             </div>
 
@@ -88,9 +91,9 @@ const About: React.FC = () => {
               <div className="w-20 h-20 bg-purple-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-2xl font-bold text-purple-600">2024</span>
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Leadership</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Making Waves</h3>
               <p className="text-gray-600">
-                Leading the industry with innovative technology and exceptional service
+                Now we're helping thousands of families every day, and we're just getting started
               </p>
             </div>
           </div>
@@ -101,9 +104,9 @@ const About: React.FC = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Values</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">What We Stand For</h2>
             <p className="text-gray-600">
-              The principles that guide everything we do
+              These aren't just words on a wall - they're how we actually work
             </p>
           </div>
 
@@ -114,7 +117,8 @@ const About: React.FC = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-3">Trust & Reliability</h3>
               <p className="text-gray-600">
-                We build trust through consistent, reliable service delivery and transparent communication.
+                We only work with professionals who've proven they can be counted on. 
+                No more no-shows or shoddy work.
               </p>
             </div>
 
@@ -122,9 +126,10 @@ const About: React.FC = () => {
               <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mb-4">
                 <Award className="w-6 h-6 text-green-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Quality Excellence</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Quality That Lasts</h3>
               <p className="text-gray-600">
-                We maintain the highest standards of quality in every service we provide.
+                We believe in doing things right the first time. It saves you money 
+                and saves us headaches.
               </p>
             </div>
 
@@ -132,9 +137,9 @@ const About: React.FC = () => {
               <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mb-4">
                 <Users className="w-6 h-6 text-purple-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Customer First</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">You Come First</h3>
               <p className="text-gray-600">
-                Our customers are at the heart of everything we do, and their satisfaction is our priority.
+                Every decision we make starts with one question: "What's best for our customers?"
               </p>
             </div>
 
@@ -142,9 +147,10 @@ const About: React.FC = () => {
               <div className="w-12 h-12 bg-yellow-100 rounded-lg flex items-center justify-center mb-4">
                 <Clock className="w-6 h-6 text-yellow-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Efficiency</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Time Matters</h3>
               <p className="text-gray-600">
-                We value time and strive to provide quick, efficient solutions to all problems.
+                We know your time is valuable. That's why we show up when we say we will 
+                and get the job done efficiently.
               </p>
             </div>
 
@@ -152,9 +158,10 @@ const About: React.FC = () => {
               <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center mb-4">
                 <MapPin className="w-6 h-6 text-red-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Local Focus</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Local Roots</h3>
               <p className="text-gray-600">
-                We understand local needs and provide services tailored to each community.
+                We're not some faceless corporation. We work with people from your community 
+                who understand your neighborhood.
               </p>
             </div>
 
@@ -162,9 +169,10 @@ const About: React.FC = () => {
               <div className="w-12 h-12 bg-indigo-100 rounded-lg flex items-center justify-center mb-4">
                 <Target className="w-6 h-6 text-indigo-600" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-3">Innovation</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">Always Improving</h3>
               <p className="text-gray-600">
-                We continuously innovate to improve our services and user experience.
+                We're constantly looking for ways to make our service better. 
+                Your feedback drives our improvements.
               </p>
             </div>
           </div>
@@ -199,9 +207,9 @@ const About: React.FC = () => {
       <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Team</h2>
+            <h2 className="text-3xl font-bold text-gray-900 mb-4">Meet Our Team</h2>
             <p className="text-gray-600">
-              Meet the passionate people behind Urban Services
+              The people who make Quicknest work day in and day out
             </p>
           </div>
 
@@ -210,9 +218,10 @@ const About: React.FC = () => {
               <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
                 <Users className="w-16 h-16 text-gray-400" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Leadership Team</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Leadership</h3>
               <p className="text-gray-600">
-                Experienced professionals guiding our company's vision and growth
+                Our experienced team guides the company's direction and keeps us 
+                focused on what matters most
               </p>
             </div>
 
@@ -220,9 +229,10 @@ const About: React.FC = () => {
               <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
                 <Shield className="w-16 h-16 text-gray-400" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Quality Team</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Quality Control</h3>
               <p className="text-gray-600">
-                Dedicated professionals ensuring service quality and customer satisfaction
+                These folks make sure every service meets our high standards. 
+                They're the reason you can trust us.
               </p>
             </div>
 
@@ -230,9 +240,10 @@ const About: React.FC = () => {
               <div className="w-32 h-32 bg-gray-200 rounded-full mx-auto mb-4 flex items-center justify-center">
                 <Clock className="w-16 h-16 text-gray-400" />
               </div>
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Support Team</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Customer Support</h3>
               <p className="text-gray-600">
-                Customer service experts available 24/7 to assist you
+                Available around the clock to help with questions, concerns, 
+                or just to chat about your latest home project
               </p>
             </div>
           </div>
@@ -243,10 +254,10 @@ const About: React.FC = () => {
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Ready to Experience Our Services?
+            Ready to Give Us a Try?
           </h2>
           <p className="text-xl text-gray-600 mb-8">
-            Join thousands of satisfied customers who trust Urban Services
+            Join thousands of happy customers who've discovered how easy home services can be
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 

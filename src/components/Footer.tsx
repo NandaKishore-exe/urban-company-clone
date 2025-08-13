@@ -11,9 +11,9 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                <span className="text-black font-bold text-lg">U</span>
+                <span className="text-black font-bold text-lg">Q</span>
               </div>
-              <span className="text-xl font-bold">Urban Services</span>
+              <span className="text-xl font-bold">Quicknest</span>
             </div>
             <p className="text-gray-400 text-sm">
               Professional home services at your doorstep. Quality guaranteed.
@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold">Connect With Us</h3>
             <div className="space-y-2">
               <p className="text-gray-400 text-sm">
-                Email: info@urbanservices.com
+                Email: info@quicknest.com
               </p>
               <p className="text-gray-400 text-sm">
                 Phone: +1 (555) 123-4567
@@ -110,7 +110,7 @@ const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
-            © 2024 Urban Services. All rights reserved.
+            © 2024 Quicknest. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link to="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">
