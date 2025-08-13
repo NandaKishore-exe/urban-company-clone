@@ -88,19 +88,19 @@ const Footer: React.FC = () => {
             
             {/* Social Media */}
             <div className="flex space-x-4 pt-2">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://facebook.com/quicknest" className="text-gray-400 hover:text-white transition-colors" aria-label="Follow us on Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://twitter.com/quicknest" className="text-gray-400 hover:text-white transition-colors" aria-label="Follow us on Twitter">
                 <Twitter size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://instagram.com/quicknest" className="text-gray-400 hover:text-white transition-colors" aria-label="Follow us on Instagram">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://linkedin.com/company/quicknest" className="text-gray-400 hover:text-white transition-colors" aria-label="Follow us on LinkedIn">
                 <Linkedin size={20} />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://youtube.com/quicknest" className="text-gray-400 hover:text-white transition-colors" aria-label="Follow us on YouTube">
                 <Youtube size={20} />
               </a>
             </div>

@@ -9,7 +9,6 @@ const SignUp: React.FC = () => {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [otpSent, setOtpSent] = useState(false);
   const [countdown, setCountdown] = useState(0);
   const navigate = useNavigate();
 
@@ -22,9 +21,8 @@ const SignUp: React.FC = () => {
     setIsLoading(true);
     // Simulate API call
     setTimeout(() => {
-      setOtpSent(true);
-      setCountdown(30);
       setStep('otp');
+      setCountdown(30);
       setIsLoading(false);
     }, 1000);
   };

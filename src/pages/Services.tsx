@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Star, MapPin, Clock, Shield } from 'lucide-react';
+import { MapPin, Clock, Shield } from 'lucide-react';
 import ServiceCard from '../components/ServiceCard';
 import { Service } from '../types';
 
