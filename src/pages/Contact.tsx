@@ -182,8 +182,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Call Us</h3>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
-                    <p className="text-gray-600">+1 (555) 987-6543</p>
+                    <p className="text-gray-600">+91 6362643636</p>
                   </div>
                 </div>
 
@@ -194,9 +193,9 @@ const Contact: React.FC = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 mb-1">Visit Us</h3>
                     <p className="text-gray-600">
-                      123 Business Street<br />
-                      Suite 100<br />
-                      City, State 12345
+                      03, 1st Cross, 4th Main<br />
+                      Malleshpallya<br />
+                      Bangalore 560075
                     </p>
                   </div>
                 </div>
@@ -233,10 +232,10 @@ const Contact: React.FC = () => {
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Head Office</h3>
               <div className="space-y-3 text-gray-600">
-                <p>123 Business Street</p>
-                <p>Suite 100</p>
-                <p>City, State 12345</p>
-                <p className="font-semibold text-blue-600">+1 (555) 123-4567</p>
+                <p>03, 1st Cross, 4th Main</p>
+                <p>Malleshpallya</p>
+                <p>Bangalore 560075</p>
+                <p className="font-semibold text-blue-600">+91 6362643636</p>
               </div>
             </div>
 
@@ -244,10 +243,10 @@ const Contact: React.FC = () => {
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Regional Office</h3>
               <div className="space-y-3 text-gray-600">
-                <p>456 Service Avenue</p>
-                <p>Floor 2</p>
-                <p>Downtown, State 54321</p>
-                <p className="font-semibold text-blue-600">+1 (555) 987-6543</p>
+                <p>03, 1st Cross, 4th Main</p>
+                <p>Malleshpallya</p>
+                <p>Bangalore 560075</p>
+                <p className="font-semibold text-blue-600">+91 6362643636</p>
               </div>
             </div>
 
@@ -255,10 +254,10 @@ const Contact: React.FC = () => {
             <div className="bg-gray-50 rounded-lg p-6">
               <h3 className="text-xl font-semibold text-gray-900 mb-4">Support Center</h3>
               <div className="space-y-3 text-gray-600">
-                <p>789 Customer Road</p>
-                <p>Building A</p>
-                <p>Suburb, State 67890</p>
-                <p className="font-semibold text-blue-600">+1 (555) 456-7890</p>
+                <p>03, 1st Cross, 4th Main</p>
+                <p>Malleshpallya</p>
+                <p>Bangalore 560075</p>
+                <p className="font-semibold text-blue-600">+91 6362643636</p>
               </div>
             </div>
           </div>
@@ -318,7 +317,7 @@ const Contact: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:+15551234567" 
+              href="tel:+916362643636" 
               className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
             >
               Call Now

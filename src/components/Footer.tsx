@@ -82,7 +82,11 @@ const Footer: React.FC = () => {
                 Email: info@quicknest.com
               </p>
               <p className="text-gray-400 text-sm">
-                Phone: +1 (555) 123-4567
+                Phone: +91 6362643636
+              </p>
+              <p className="text-gray-400 text-sm">
+                Address: 03, 1st Cross, 4th Main<br />
+                Malleshpallya, Bangalore 560075
               </p>
             </div>
             

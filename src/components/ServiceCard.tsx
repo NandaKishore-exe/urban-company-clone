@@ -8,7 +8,7 @@ interface ServiceCardProps {
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ service }) => {
   const handleContactUs = () => {
-    window.location.href = 'tel:+15551234567';
+    window.location.href = 'tel:+916362643636';
   };
 
   return (
