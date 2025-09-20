@@ -112,7 +112,7 @@ const Services: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Appliance Repair */}
             <div className="bg-gray-50 rounded-lg p-8">
               <div className="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
@@ -120,20 +120,40 @@ const Services: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Appliance Repair</h3>
               <p className="text-gray-600 mb-4">
-                Professional repair services for all your home appliances including AC, geyser, and washing machines.
+                Professional repair services for all your home appliances including water purifiers, microwaves, and gas geysers.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
+                <li>• Water Purifier Service</li>
+                <li>• Microwave Repair & Service</li>
+                <li>• Gas Geyser Repair</li>
                 <li>• AC Repair & Maintenance</li>
                 <li>• Geyser Installation & Repair</li>
                 <li>• Washing Machine Repair</li>
-                <li>• Same-day service available</li>
+                <li>• Chimney Repair & Maintenance</li>
+              </ul>
+            </div>
+
+            {/* Electronics & Security */}
+            <div className="bg-gray-50 rounded-lg p-8">
+              <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
+                <span className="text-green-600 text-2xl font-bold">📱</span>
+              </div>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Electronics & Security</h3>
+              <p className="text-gray-600 mb-4">
+                Expert services for your electronic devices and security systems to keep you connected and protected.
+              </p>
+              <ul className="space-y-2 text-sm text-gray-600">
+                <li>• Mobile Phone Repair</li>
+                <li>• CCTV Installation & Setup</li>
+                <li>• Security System Maintenance</li>
+                <li>• Professional Installation</li>
               </ul>
             </div>
 
             {/* Home Cleaning */}
             <div className="bg-gray-50 rounded-lg p-8">
-              <div className="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6">
-                <span className="text-green-600 text-2xl font-bold">🧹</span>
+              <div className="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
+                <span className="text-purple-600 text-2xl font-bold">🧹</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Home Cleaning</h3>
               <p className="text-gray-600 mb-4">
@@ -149,12 +169,12 @@ const Services: React.FC = () => {
 
             {/* Professional Service */}
             <div className="bg-gray-50 rounded-lg p-8">
-              <div className="w-16 h-16 bg-purple-100 rounded-lg flex items-center justify-center mb-6">
-                <span className="text-purple-600 text-2xl font-bold">👨‍🔧</span>
+              <div className="w-16 h-16 bg-orange-100 rounded-lg flex items-center justify-center mb-6">
+                <span className="text-orange-600 text-2xl font-bold">👨‍🔧</span>
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-4">Professional Service</h3>
               <p className="text-gray-600 mb-4">
-                Expert technicians with years of experience and proper certifications.
+                Expert technicians with years of experience and proper certifications for all your home service needs.
               </p>
               <ul className="space-y-2 text-sm text-gray-600">
                 <li>• Certified Technicians</li>

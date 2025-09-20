@@ -1,6 +1,54 @@
 {
   "services": [
     {
+      "id": "water-purifier-service",
+      "name": "Water Purifier Service",
+      "description": "Professional water purifier maintenance and repair services. Our experts ensure clean and safe drinking water for your family.",
+      "price": 499,
+      "image": "https://www.pureitwater.com/media/catalog/product/e/c/echowaterhero.jpg",
+      "category": "appliance-repair"
+    },
+    {
+      "id": "microwave-service",
+      "name": "Microwave Service",
+      "description": "Expert microwave repair and servicing. We fix heating problems, turntable malfunctions, and all microwave issues with warranty.",
+      "price": 399,
+      "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=400&h=300&fit=crop",
+      "category": "appliance-repair"
+    },
+    {
+      "id": "gas-geyser-repair",
+      "name": "Gas Geyser Repair Service",
+      "description": "Comprehensive gas geyser repair and maintenance services. Professional installation, repair, and troubleshooting with same-day service.",
+      "price": 699,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+      "category": "appliance-repair"
+    },
+    {
+      "id": "chimney-repair",
+      "name": "Chimney Repair Service",
+      "description": "Specialized chimney repair and maintenance services. Deep cleaning, part replacement, and performance optimization for your kitchen chimney.",
+      "price": 599,
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=300&fit=crop",
+      "category": "appliance-repair"
+    },
+    {
+      "id": "cctv-installation",
+      "name": "CCTV Installation Service",
+      "description": "Professional CCTV installation and maintenance services. Enhanced security solutions for residential and commercial properties.",
+      "price": 1299,
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
+      "category": "security"
+    },
+    {
+      "id": "mobile-repair",
+      "name": "Mobile Repair Service",
+      "description": "Expert mobile phone repair services. Screen replacement, battery issues, software problems, and all mobile repair needs covered.",
+      "price": 299,
+      "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?w=400&h=300&fit=crop",
+      "category": "electronics"
+    },
+    {
       "id": "ac-repair",
       "name": "AC Repair",
       "description": "Professional AC repair and maintenance services. Our experts will diagnose and fix your AC issues quickly and efficiently.",
@@ -36,27 +84,69 @@
   "testimonials": [
     {
       "id": "1",
+      "name": "Priya Sharma",
+      "rating": 5,
+      "comment": "Excellent water purifier service! The technician was professional and cleaned my purifier thoroughly.",
+      "service": "Water Purifier Service"
+    },
+    {
+      "id": "2",
+      "name": "Rajesh Kumar",
+      "rating": 5,
+      "comment": "Great microwave repair service. My microwave is working perfectly now!",
+      "service": "Microwave Service"
+    },
+    {
+      "id": "3",
+      "name": "Anita Patel",
+      "rating": 4,
+      "comment": "Fast and reliable gas geyser repair. Highly recommended!",
+      "service": "Gas Geyser Repair Service"
+    },
+    {
+      "id": "4",
+      "name": "Vikram Singh",
+      "rating": 5,
+      "comment": "Professional chimney repair service. My kitchen is smoke-free now.",
+      "service": "Chimney Repair Service"
+    },
+    {
+      "id": "5",
+      "name": "Sneha Reddy",
+      "rating": 5,
+      "comment": "Outstanding CCTV installation service. Great security setup for my home.",
+      "service": "CCTV Installation Service"
+    },
+    {
+      "id": "6",
+      "name": "Amit Gupta",
+      "rating": 4,
+      "comment": "Quick mobile repair service. Fixed my phone screen in no time.",
+      "service": "Mobile Repair Service"
+    },
+    {
+      "id": "7",
       "name": "Sarah Johnson",
       "rating": 5,
       "comment": "Excellent AC repair service! The technician was professional and fixed the issue quickly.",
       "service": "AC Repair"
     },
     {
-      "id": "2",
+      "id": "8",
       "name": "Mike Chen",
       "rating": 5,
       "comment": "Great home cleaning service. My house looks brand new!",
       "service": "Home Cleaning"
     },
     {
-      "id": "3",
+      "id": "9",
       "name": "Lisa Rodriguez",
       "rating": 4,
       "comment": "Fast and reliable geyser repair. Highly recommended!",
       "service": "Geyser Repair"
     },
     {
-      "id": "4",
+      "id": "10",
       "name": "David Wilson",
       "rating": 5,
       "comment": "Professional washing machine repair. Fixed the issue in no time.",
